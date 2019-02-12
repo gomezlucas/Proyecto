@@ -1,0 +1,212 @@
+/* comentario*/
+
+Body {
+    background-color: black;
+    color: white;
+    width: 80%;
+    margin: auto;
+ }
+
+#titulo {
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-size: 140px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#menu {
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    
+}
+
+#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#menu ul li {
+    display: inline-block;
+    width: 17.6%;
+    margin-right: -15px;
+    position: relative;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    
+    /* modificacion */
+}
+
+#menu ul li a {
+    text-decoration: none;
+    transition:  ease all 1s;
+    color: white;
+    display: block;
+    
+    padding: 0px 1px;
+}
+
+
+
+#menu a:hover {
+    background-color: white;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+     }
+
+
+#menu a:visited {
+    color: grey;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+#menu a:active {
+    color: black;
+    background-color: white;
+    font-size: 30px;
+}
+  
+/* -------------definicion de submenu------------------------*/
+
+#menu ul li .submenu {
+    margin: 0;
+    padding: 0;
+    background: grey;
+    color: black;
+    width: 100%;
+    position: absolute;
+    top: 38px;
+    left: 0;
+    transition: ease all 1s;
+    opacity: 0;
+    }
+ 
+#menu ul li .submenu li {
+    display: block;
+    width: 240px;
+    font-size: 25px;
+    text-align: left;
+    background:white;
+     padding: 0;
+/*    height: 40px; ?? */ 
+    z-index: 999999;    
+ /*   line-height: 40px; ??*/
+
+}
+
+
+/* el hover esta sobre el li ya que el submenu es lo que necesito mostrar */
+#menu li:hover .submenu{
+ /*    display: block; */
+    opacity: 1;
+
+}
+/* -------------definicion de submenu------------------------*/
+#menu ul li .submenu a{
+    background-color:white;
+    color: black;
+    text-decoration: none;
+}
+
+#menu ul li .submenu a:hover{
+        color: black;
+        font-size: 27px;
+        text-decoration: none;
+  }
+
+/* -------------definicion links submenus------------------------*/
+
+#discografia {
+    font-family: 'Neucha', cursive;
+    font-size: 20px;
+}
+
+#discografia table {
+    border: 1px solid white
+}
+
+#biografia {
+    font-family: 'Neucha', cursive;
+    text-align: justify;
+    font-size: 20px;
+}
+
+#merchandise {
+    font-family: 'Neucha', cursive;
+}
+
+#merchandise .mkt {
+    border: 4px solid white;
+    width: 330px;
+    padding: 5px;
+    float: left;
+    margin: 5px;
+}
+
+#contacto {
+    font-family: 'Neucha', cursive;
+    padding: 10px;
+    clear: left;
+}
+
+#newsmedia {
+    font-family: 'Neucha', cursive;
+    font-size: 25px;
+    background-color: rgb(63, 62, 62);
+    height: 40px;
+    position: relative;
+}
+
+
+/*
+#newsmedia .iconos.derecha {
+    float: right;
+}
+*/
+
+.iconosderecha{
+    position: absolute;
+    top: 6px;
+    right:10px;
+ } 
+
+
+#newsmedia a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    display: inline-block;
+}
+
+#newsmedia a:hover {
+    color: white;
+    text-decoration: none;
+    transform: scale(1.2);
+}
+
+#piedepagina {
+    font-family: 'Neucha', cursive;
+    font-size: 20px;
+    height: 120px;
+    color: white;
+    background-color: grey;
+    line-height: 18px;
+    padding: 5px;
+}
+
+.encabezado {
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    border-bottom: 1px solid white;
+}
