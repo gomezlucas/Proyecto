@@ -16,4 +16,4 @@ buttonX.addEventListener("click", function () {
 })
 
 
-logo.animate([{opacity:'0.0'},{opacity:'1.0'}],{duration:2000,fill:'forwards'});
+logo.animate([{opacity:'0.0'},{opacity:'1.0'}],{duration:3000,fill:'forwards'});
