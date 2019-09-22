@@ -376,13 +376,12 @@
   /*-------Menues----------------------------------------------------------------------------------------*/
   .html__index {
     background-color: black;
-    background-image: url(../img/sia1024.jpg);
-    background-position: center center;
-    padding: 0;
+    background-image: url("../img/sia1024.jpg");
+     padding: 0;
     margin: 0;
-    background-repeat: no-repeat;
-    font-family: "Amatic SC", cursive;
+     font-family: "Amatic SC", cursive;
     position: relative;
+    height: 100%;
   }
   .mainheader {
     display: block;
