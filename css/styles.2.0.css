@@ -377,6 +377,7 @@
   .html__index {
     background-color: black;
     background-image: url("../img/sia1024.jpg");
+    background-attachment: scroll;
      padding: 0;
     margin: 0;
      font-family: "Amatic SC", cursive;
