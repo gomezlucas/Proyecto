@@ -377,23 +377,25 @@
   .html__index {
     background-color: black;
     background-image: url(../img/1prueba.jpg);
-   /* background-position: center top;*/
+    background-position: center center;
     padding: 0;
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
-     background-position-y: 0vh;
-    font-family: "Amatic SC", cursive;
+    background-size: 100vh;
+    min-height: 100vh;
+     font-family: "Amatic SC", cursive;
     position: relative;
   }
   .mainheader {
     display: block;
   }
   .mainheader__logo {
-    position: absolute; 
+    position: absolute;
     right:6px;
     top: 10px;
-  }
+    transition: all 1s ease;
+   }
 
  
   .mainheader__menu {
