@@ -5,7 +5,7 @@
 .html__index {
   background-color: black;
   margin-top: 0;
-  background-image: url(../img/fondosia2T.jpg);
+  background-image: url("../img/fondosia2T.jpg");
   background-position: top center;
   padding: 0;
   margin: 0;
@@ -18,7 +18,7 @@
 .html__tour {
   background-color: black;
   margin-top: 0;
-  background-image: url(../img/siatourfondo2.jpg);
+  background-image: url("../img/siatourfondo2.jpg");
   background-position: top center;
   padding: 0;
   margin: 0;
@@ -31,7 +31,7 @@
 .html__gallery {
   background-color: black;
   margin-top: 0;
-  background: url(../img/space.jpg);
+  background: url("../img/space.jpg");
   background-position: top center;
   padding: 0;
   margin: 0;
