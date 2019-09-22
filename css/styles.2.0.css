@@ -11,7 +11,7 @@
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100% !important;
+  background-size: cover;
   font-family: "Amatic SC", cursive;
 }
 
@@ -24,7 +24,7 @@
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100% !important;
+  background-size: cover;
   font-family: "Amatic SC", cursive;
 }
 
@@ -60,7 +60,7 @@
   z-index: 99999;
   background: black;
   width: 100%;
-}
+ }
 
 .mainheader__logo {
   width: auto;
@@ -377,12 +377,12 @@
   .html__index {
     background-color: black;
     background-image: url(../img/1prueba.jpg);
-    background-position: top center;
+    background-position: center center;
     padding: 0;
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: 100vh;
     font-family: "Amatic SC", cursive;
     position: relative;
   }
@@ -390,13 +390,12 @@
     display: block;
   }
   .mainheader__logo {
-    display: none;
+    position: absolute; 
+    right:6px;
+    top: 10px;
   }
-  .mainheader__logo__oculto {
-    display: block;
-    position: fixed;
-    z-index: 999999;
-  }
+
+ 
   .mainheader__menu {
     display: none;
     position: absolute;
@@ -430,12 +429,12 @@
     background-color: black;
     margin-top: 0;
     background-image: url(../img/siatourfondopurple.png);
-    background-position: top center;
+    background-position: center center;
     padding: 0;
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: 100vh;
     font-family: "Amatic SC", cursive;
   }
   .html__tour .home__fondo p {
@@ -472,6 +471,14 @@
     font-size: 30px;
   }
   /*-------------------------Fin tour----------------------------------------------------------------------*/
+  /*-------------------------News----------------------------------------------------------------------*/
+  .container__news{
+    background-size: 100vh;
+    background-repeat: repeat;
+  }
+  /*-------------------------Fin News----------------------------------------------------------------------*/
+  
+  
   /*--------------------------Gallery-----------------------------------------------*/
   .container__gallery {
     display: none;
