@@ -1,178 +1,185 @@
+* {
+  box-sizing: border-box;
+}
+
 .html__index {
-    background-color: black;
-    margin-top: 0;
-    background-image: url(../img/fondosia2T.jpg);
-    background-position: top center;
-    padding: 0;
-    margin: 0;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    font-family: 'Amatic SC', cursive;
+  background-color: black;
+  margin-top: 0;
+  background-image: url(../img/fondosia2T.jpg);
+  background-position: top center;
+  padding: 0;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Amatic SC", cursive;
 }
 
 .html__tour {
-    background-color: black;
-    margin-top: 0;
-    background-image: url(../img/siatourfondo2.jpg);
-    background-position: top center;
-    padding: 0;
-    margin: 0;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    font-family: 'Amatic SC', cursive;
+  background-color: black;
+  margin-top: 0;
+  background-image: url(../img/siatourfondo2.jpg);
+  background-position: top center;
+  padding: 0;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Amatic SC", cursive;
 }
 
 .html__gallery {
-    background-color: black;
-    margin-top: 0;
-    background: url(../img/space.jpg);
-    background-position: top center;
-    padding: 0;
-    margin: 0;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+  background-color: black;
+  margin-top: 0;
+  background: url(../img/space.jpg);
+  background-position: top center;
+  padding: 0;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .encabezado {
-    font-family: 'Amatic SC', cursive;
-    font-size: 4em;
-    padding: 15px;
-    font-weight: bold;
-    color: white;
+  font-family: "Amatic SC", cursive;
+  font-size: 4em;
+  padding: 15px;
+  font-weight: bold;
+  color: white;
 }
 
 /* Definicion Header */
 
 .mainheader {
-    color: white;
-    /*   border: 1px solid white;  */
-    display: flex;
-    position: sticky;
-    top: 0px;
-    left: 0px;
-    z-index: 99999;
-    background: black;
-    width: 100%;
+  color: white;
+  /*   border: 1px solid white;  */
+  display: flex;
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  z-index: 99999;
+  background: black;
+  width: 100%;
 }
 
 .mainheader__logo {
-    width: auto;
+  width: auto;
 }
 
 .mainheader__logo__oculto {
-    display: none;
+  display: none;
 }
 
 .mainheader__menu {
-    /*   border: 1px solid white;  */
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    font-family: 'Amatic SC', cursive;
-    font-size: 40px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: flex-start;
+  /*   border: 1px solid white;  */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  font-family: "Amatic SC", cursive;
+  font-size: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
 }
 
 .mainheader__menu li {
-    /*border: 1px solid white; */
-    padding: 0px 28px;
-    margin-top: 10px;
+  /*border: 1px solid white; */
+  padding: 0px 28px;
+  margin-top: 10px;
 }
 
 .mainheader__menu a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .mainheader__menu .mainheader__menu__home a:hover {
-    color: red;
+  color: red;
 }
 
 .mainheader__menu .mainheader__menu__news a:hover {
-    color: orangered;
+  color: orangered;
 }
 
 .mainheader__menu .mainheader__menu__tour a:hover {
-    color: yellow;
+  color: yellow;
 }
 
 .mainheader__menu .mainheader__menu__music a:hover {
-    color: green;
+  color: green;
 }
 
 .mainheader__menu .mainheader__menu__store a:hover {
-    color: blue;
+  color: blue;
 }
 
 .mainheader__menu .mainheader__menu__gallery a:hover {
-    color: purple;
+  color: purple;
 }
 
 .iconosderecha {
-    position: absolute;
-    bottom: 17px;
-    right: 10px;
-    font-size: 20px;
+  position: absolute;
+  bottom: 17px;
+  right: 10px;
+  font-size: 20px;
 }
 
 .iconosderecha a {
-    color: white;
-    text-decoration: none;
-    padding: 3px;
+  color: white;
+  text-decoration: none;
+  padding: 3px;
 }
 
 .iconosderecha__facebook:hover {
-    color: #3b5998;
-    ;
+  color: #3b5998;
 }
 
 .iconosderecha__twitter:hover {
-    color: #55acee;
+  color: #55acee;
 }
 
 .iconosderecha__instagram:hover {
-    color: #3f729b;
+  color: #3f729b;
 }
 
 .iconosderecha__youtube:hover {
-    color: #cd201f;
+  color: #cd201f;
 }
 
 /* Fin Definicion Header */
 
 .home {
-    position: relative;
+  position: relative;
 }
 
 .home__fondo {
-    max-width: 100%;
-    width: auto;
-    height: 100vh;
-    padding-top: 50px;
+  max-width: 100%;
+  width: auto;
+  height: 100vh;
+  padding-top: 50px;
 }
 
 .home__titulo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 5;
-    position: absolute;
-    top: 0;
-    right: 0;
-    opacity: 0.8;
-    width: 50%;
-    height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0.8;
+  width: 50%;
+  height: 100%;
 }
 
 .home__titulo img {
-    width: 70%;
+  width: 70%;
+}
+
+.mainheader__buttonX {
+  display: none;
 }
 
 /* Definicion Home */
@@ -180,20 +187,20 @@
 /* Definicion news */
 
 .container__news {
-    padding-top: 45px;
-    background-image: url(../img/fondonews.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+  padding-top: 45px;
+  background-image: url(../img/fondonews.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .card-columns {
-    padding: 30px;
+  padding: 30px;
 }
 
 .card-columns {
-    font-family: 'Neucha', cursive;
-    font-size: 20px;
+  font-family: "Neucha", cursive;
+  font-size: 20px;
 }
 
 /* Fin news */
@@ -201,43 +208,43 @@
 /* Definicion Music  */
 
 .music__container {
-    list-style: none;
-    padding: 50px;
-    margin: 0;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: space-around;
-    position: relative;
-    z-index: 0;
-    background: black;
+  list-style: none;
+  padding: 50px;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+  position: relative;
+  z-index: 0;
+  background: black;
 }
 
 .music__container li {
-    position: relative;
-    padding-top: 20px;
+  position: relative;
+  padding-top: 20px;
 }
 
 .music__container li img {
-    height: 350px;
-    width: 350px;
+  height: 350px;
+  width: 350px;
 }
 
 .music__container__overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    height: 350px;
-    width: 350px;
-    opacity: 0;
-    transition: ease all 1.5s;
-    padding-top: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  height: 350px;
+  width: 350px;
+  opacity: 0;
+  transition: ease all 1.5s;
+  padding-top: 20px;
 }
 
 .music__container__overlay:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 /* Fin Definicion Music */
@@ -245,37 +252,37 @@
 /*  Definicion Store */
 
 .main__container__store {
-    background: white;
-    padding: 45px;
+  background: white;
+  padding: 45px;
 }
 
 .main__container__product {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    align-content: flex-start;
-    width: 100%;
-    height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-start;
+  width: 100%;
+  height: 100%;
 }
 
 .product {
-    display: flex;
-    flex-direction: column;
-    height: 470px;
-    width: 360px;
-    margin: 15px;
-    align-items: center;
-    font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  height: 470px;
+  width: 360px;
+  margin: 15px;
+  align-items: center;
+  font-size: 25px;
 }
 
 .product img:hover {
-    opacity: .85;
+  opacity: 0.85;
 }
 
 .product h2:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* Fin Definicion Store */
@@ -283,43 +290,43 @@
 /*Definicion page Tour */
 
 .container__tour {
-    width: 100%;
-    background: black;
-    height: 100%;
-    padding: 50px;
+  width: 100%;
+  background: black;
+  height: 100%;
+  padding: 50px;
 }
 
-.html__tour .home__fondo p{ 
-    display: none;
+.html__tour .home__fondo p {
+  display: none;
 }
 .table {
-    background: black;
-    font-size: 15px;
-    font-family: "Source Code Pro";
+  background: black;
+  font-size: 15px;
+  font-family: "Source Code Pro";
 }
 
 .container__tour__subscription {
-    color: white;
-    font-size: 30px;
-    word-spacing: 5px;
-    text-align: center;
+  color: white;
+  font-size: 30px;
+  word-spacing: 5px;
+  text-align: center;
 }
 
 .formulario {
-    text-align: center;
+  text-align: center;
 }
 
 .formulario__items {
-    background: black;
-    color: white;
-    width: 30%;
-    margin: 15px;
-    text-transform: uppercase;
-    font-size: 30px;
+  background: black;
+  color: white;
+  width: 30%;
+  margin: 15px;
+  text-transform: uppercase;
+  font-size: 30px;
 }
 
 .formulario__send__button {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 /*Fin page Tour */
@@ -327,17 +334,17 @@
 /* Definicion page gallery*/
 
 .container__gallery {
-    width: 58%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 1%;
-    margin-bottom: 5%;
+  width: 58%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 1%;
+  margin-bottom: 5%;
 }
 
 .container__gallery__oculto {
-    display: none;
+  display: none;
 }
 
 /* Fin page gallery */
@@ -349,130 +356,198 @@
 /* mobile */
 
 .container__gallery__oculto {
-    padding-top: 50px;
+  padding-top: 50px;
 }
 
 .container__gallery__oculto .container {
-    padding-top: 5px;
+  padding-top: 5px;
 }
 
 .container__gallery__oculto .col-md-5 {
-    margin-bottom: 28px;
+  margin-bottom: 28px;
 }
 
 .container__gallery__oculto img:hover {
-    transition: transform 0.5s;
-    transform: scale(1.1);
+  transition: transform 0.5s;
+  transform: scale(1.1);
 }
 
 @media only screen and (max-width: 774px) {
-    /*-------Menues----------------------------------------------------------------------------------------*/
-    .html__index {
-        background-color: black;
-        background-image: url(../img/1prueba.jpg);
-        background-position: top center;
-        padding: 0;
-        margin: 0;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-        font-family: 'Amatic SC', cursive;
-        position: relative;
-    }
-    .mainheader {
-        display: block;
-    }
-    .mainheader__logo {
-        display: none;
-    }
-    .mainheader__logo__oculto {
-        display: block;
-        position: fixed;
-        z-index: 999999;
-    }
-    .mainheader__menu {
-        display: none;
-        position: absolute;
-        top: 78px;
-        background: rgba(0, 0, 0, 0.582);
-    }
-    .iconosderecha {
-        display: none;
-        position: absolute;
-        bottom: 0px;
-        right: 10px;
-        font-size: 20px;
-    }
-    /*----------fin menu-----------------*/
-    .product {
-        display: flex;
-        flex-direction: column;
-        height: auto;
-        width: 100%;
-        margin: 15px;
-        align-items: center;
-        font-size: 25px;
-    }
-    .product img {
-        width: 100%;
-        height: auto;
-    }
-    /*-----------------------------------------------------------------------------------------------*/
-    /*---------------------------------tour--------------------------------------------------------------*/
-    .html__tour {
-        background-color: black;
-        margin-top: 0;
-        background-image: url(../img/siatourfondopurple.png);
-        background-position: top center;
-        padding: 0;
-        margin: 0;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-        font-family: 'Amatic SC', cursive;
-    }
-    .html__tour .home__fondo p{ 
-        display: inline-block;
-    }
-    .table,
-    th,
-    td,
-    tr {
-        display: block;
-        text-align: center;
-    }
-    .table td {
-        border-top: none;
-    }
-    .table tr {
-        border-top: 1px solid #dee2e6;
-    }
-    .container__tour {
-        width: 100%;
-        background: black;
-        height: 100%;
-        padding-top: 50px;
-    }
-    .container__tour p {
-        padding: 20px;
-    }
-    .formulario__items {
-        background: black;
-        color: white;
-        width: 70%;
-        margin: 15px;
-        text-transform: uppercase;
-        font-size: 30px;
-    }
-    /*-------------------------Fin tour----------------------------------------------------------------------*/
-    /*--------------------------Gallery-----------------------------------------------*/
-    .container__gallery {
-        display: none;
-    }
-    .container__gallery__oculto{
-        display: inline-block;
-    }
-    /*-------------------------Fin Gallery-----------------------------------------------*/
+  /*-------Menues----------------------------------------------------------------------------------------*/
+  .html__index {
+    background-color: black;
+    background-image: url(../img/1prueba.jpg);
+    background-position: top center;
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Amatic SC", cursive;
+    position: relative;
+  }
+  .mainheader {
+    display: block;
+  }
+  .mainheader__logo {
+    display: none;
+  }
+  .mainheader__logo__oculto {
+    display: block;
+    position: fixed;
+    z-index: 999999;
+  }
+  .mainheader__menu {
+    display: none;
+    position: absolute;
+    top: 78px;
+    background: rgba(0, 0, 0, 0.582);
+  }
+  .iconosderecha {
+    display: none;
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+    font-size: 20px;
+  }
+  /*----------fin menu-----------------*/
+  .product {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    margin: 15px;
+    align-items: center;
+    font-size: 25px;
+  }
+  .product img {
+    width: 100%;
+    height: auto;
+  }
+  /*-----------------------------------------------------------------------------------------------*/
+  /*---------------------------------tour--------------------------------------------------------------*/
+  .html__tour {
+    background-color: black;
+    margin-top: 0;
+    background-image: url(../img/siatourfondopurple.png);
+    background-position: top center;
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Amatic SC", cursive;
+  }
+  .html__tour .home__fondo p {
+    display: inline-block;
+  }
+  .table,
+  th,
+  td,
+  tr {
+    display: block;
+    text-align: center;
+  }
+  .table td {
+    border-top: none;
+  }
+  .table tr {
+    border-top: 1px solid #dee2e6;
+  }
+  .container__tour {
+    width: 100%;
+    background: black;
+    height: 100%;
+    padding-top: 50px;
+  }
+  .container__tour p {
+    padding: 20px;
+  }
+  .formulario__items {
+    background: black;
+    color: white;
+    width: 70%;
+    margin: 15px;
+    text-transform: uppercase;
+    font-size: 30px;
+  }
+  /*-------------------------Fin tour----------------------------------------------------------------------*/
+  /*--------------------------Gallery-----------------------------------------------*/
+  .container__gallery {
+    display: none;
+  }
+  .container__gallery__oculto {
+    display: inline-block;
+  }
+  /*-------------------------Fin Gallery-----------------------------------------------*/
+
+  /*---------- Button X -----------------------------------*/
+  .buttonX {
+    border: 5px solid white;
+    height: 70px;
+    width: 70px;
+    background: rgba(0, 0, 0, 0.582);
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0.7rem;
+    transition: all 1s ease;
+    cursor: pointer;
+  }
+
+  .bar1,
+  .bar2,
+  .bar3 {
+    height: 5px;
+    width: 38px;
+    margin: 0.7rem;
+    background: white;
+    transition: all 1s ease;
+  }
+
+  .change .bar1 {
+    transform: rotate(45deg) translate(13px, 11px);
+  }
+
+  .change .bar2 {
+    opacity: 0;
+  }
+
+  .change .bar3 {
+    transform: rotate(-45deg) translate(13px, -10px);
+  }
+
+  .mainheader__buttonX {
+    height: 0;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    display: block;
+    position: absolute;
+    top: 82px;
+    left: 13px;
+    list-style: none;
+    width: 90%;
+    font-family: "Amatic SC", cursive;
+    font-size: 40px;
+    background: rgba(0, 0, 0, 0.582);
+    cursor: pointer;
+    transition: all 2s ease;
+  }
+
+  .mainheader__buttonX_show {
+    transition: all 2s ease;
+    height: 300px;
+  }
+
+  .mainheader__buttonX a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .mainheader_link a:hover {
+    padding-left: 1rem;
+  }
 }
 
 /* mobile */
