@@ -273,6 +273,8 @@
 .main__container__store {
   background: white;
   padding: 45px;
+  font-family: "Amatic SC", cursive;
+
 }
 
 .main__container__product {
@@ -313,6 +315,8 @@
   background: black;
   height: 100%;
   padding: 50px;
+  font-family: "Amatic SC", cursive;
+  
 }
 
 .html__tour .home__fondo p {
